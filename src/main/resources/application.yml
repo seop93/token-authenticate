@@ -1,0 +1,20 @@
+server:
+#  port: 8081
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: localhost
+    username: root
+    password: password
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: hello.world.ee.ff
